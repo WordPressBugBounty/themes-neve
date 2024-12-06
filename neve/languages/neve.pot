@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-22T20:26:55+00:00\n"
+"POT-Creation-Date: 2024-12-06T15:03:03+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: neve\n"
@@ -1566,7 +1566,7 @@ msgstr ""
 
 #: neve/inc/compatibility/fse.php:51
 #: neve/inc/customizer/options/base_layout_single.php:74
-#: neve/inc/customizer/options/layout_sidebar.php:190
+#: neve/inc/customizer/options/layout_sidebar.php:194
 #: neve/inc/customizer/options/typography.php:429
 msgid "Single Post"
 msgstr ""
@@ -1588,12 +1588,32 @@ msgstr ""
 msgid "Oops! Something went wrong."
 msgstr ""
 
+#: neve/inc/compatibility/starter-content/about.php:10
+msgctxt "Theme starter content"
+msgid "About"
+msgstr ""
+
+#: neve/inc/compatibility/starter-content/contact.php:11
+msgctxt "Theme starter content"
+msgid "Contact"
+msgstr ""
+
 #: neve/inc/compatibility/starter-content/home.php:9
 msgctxt "Theme starter content"
 msgid "Home"
 msgstr ""
 
-#: neve/inc/compatibility/starter_content.php:147
+#: neve/inc/compatibility/starter-content/portofolio.php:10
+msgctxt "Theme starter content"
+msgid "Portofolio"
+msgstr ""
+
+#: neve/inc/compatibility/starter-content/project-details.php:10
+msgctxt "Theme starter content"
+msgid "Project Details"
+msgstr ""
+
+#: neve/inc/compatibility/starter_content.php:201
 msgctxt "Theme starter content"
 msgid "Blog"
 msgstr ""
@@ -1999,7 +2019,7 @@ msgid "Customize the default button styles"
 msgstr ""
 
 #: neve/inc/customizer/options/layout_blog.php:91
-#: neve/inc/customizer/options/layout_sidebar.php:189
+#: neve/inc/customizer/options/layout_sidebar.php:193
 msgid "Blog / Archive"
 msgstr ""
 
@@ -2185,24 +2205,24 @@ msgstr ""
 msgid "Sitewide Content Width (%)"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_sidebar.php:193
+#: neve/inc/customizer/options/layout_sidebar.php:197
 msgid "Others"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_sidebar.php:247
+#: neve/inc/customizer/options/layout_sidebar.php:251
 msgid "Sidebar Layout"
 msgstr ""
 
-#: neve/inc/customizer/options/layout_sidebar.php:271
+#: neve/inc/customizer/options/layout_sidebar.php:275
 msgid "Content Width (%)"
 msgstr ""
 
 #. translators: %s is edit page link
-#: neve/inc/customizer/options/layout_sidebar.php:319
+#: neve/inc/customizer/options/layout_sidebar.php:323
 msgid "Note: It seems that the shop page has an individual sidebar layout already set. To be able to control the layout from here, %s your page and set the sidebar to \"Inherit\"."
 msgstr ""
 
-#: neve/inc/customizer/options/layout_sidebar.php:323
+#: neve/inc/customizer/options/layout_sidebar.php:327
 msgid "edit"
 msgstr ""
 

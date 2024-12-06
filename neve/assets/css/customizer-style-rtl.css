@@ -14,7 +14,9 @@
 #customize-theme-controls .customize-pane-child.accordion-section-content {
 	height: 100%;
 }
-.nv-button-group {
+#customize-theme-controls .accordion-section-title button.accordion-trigger {
+    max-height: fit-content;
+}.nv-button-group {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
