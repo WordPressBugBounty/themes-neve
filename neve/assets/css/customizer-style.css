@@ -94,6 +94,11 @@
 #nv-starter-content-notice .nv-notice-error {
 	text-align: center;
 	color: red;
+}
+
+.neve-separator-section {
+	margin: 20px auto;
+	max-width: 90%;
 }.nv-button-group {
     display: flex;
     flex-direction: row;
