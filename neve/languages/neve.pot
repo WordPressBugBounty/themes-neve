@@ -1,4 +1,4 @@
-# Copyright (C) 2025 ThemeIsle
+# Copyright (C) 2026 ThemeIsle
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-18T11:00:01+00:00\n"
+"POT-Creation-Date: 2026-03-09T11:33:27+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: neve\n"
@@ -3286,16 +3286,16 @@ msgid_plural "%s Comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: neve/inc/views/pluggable/pagination.php:273
+#: neve/inc/views/pluggable/pagination.php:267
 #: neve/inc/views/template_parts.php:539
 msgid "Pages:"
 msgstr ""
 
-#: neve/inc/views/pluggable/pagination.php:290
+#: neve/inc/views/pluggable/pagination.php:284
 msgid "previous"
 msgstr ""
 
-#: neve/inc/views/pluggable/pagination.php:295
+#: neve/inc/views/pluggable/pagination.php:289
 msgid "next"
 msgstr ""
 

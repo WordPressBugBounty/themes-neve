@@ -528,6 +528,7 @@ a.added_to_cart:hover,
   justify-content: center;
   display: inline-flex !important;
   padding-left: 15px !important;
+  align-items: center;
 }
 .woocommerce .button.loading::after {
   margin-right: 5px;
