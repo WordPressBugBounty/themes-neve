@@ -56,6 +56,7 @@
   line-height: var(--btnlineheight, 1.6);
   letter-spacing: var(--btnletterspacing, var(--bodyletterspacing));
   text-transform: var(--btntexttransform, none);
+  box-shadow: var(--primarybtnshadow, none);
 }
 
 .wc-block-components-product-button .wp-block-button__link.add_to_cart_button:hover,
@@ -799,6 +800,12 @@ section.exclusive ul:not(.tns-slider) li:nth-child(n+5) {
 }
 .woocommerce.single .entry-summary > form.cart .group_table td label {
   margin: 0;
+}
+.woocommerce.single .entry-summary > form.cart > .ppom-fieldspopup-btn-wrap {
+  width: 100%;
+}
+.woocommerce.single .entry-summary > form.cart > .ppom-fieldspopup-btn-wrap button {
+  width: 100%;
 }
 .woocommerce.single .group_table {
   margin-bottom: 20px;

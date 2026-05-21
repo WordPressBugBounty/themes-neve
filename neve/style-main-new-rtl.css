@@ -30,6 +30,7 @@ input[type=reset], .button.button-primary, .is-style-primary .wp-block-button__l
   line-height: var(--btnlineheight, 1.6);
   letter-spacing: var(--btnletterspacing, var(--bodyletterspacing));
   text-transform: var(--btntexttransform, none);
+  box-shadow: var(--primarybtnshadow, none);
 }
 
 button:hover,

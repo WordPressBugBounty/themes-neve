@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-03-09T11:33:27+00:00\n"
+"POT-Creation-Date: 2026-05-21T14:37:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: neve\n"
@@ -17,8 +17,7 @@ msgstr ""
 #. Theme Name of the theme
 #. translators: Theme Name
 #: neve
-#: neve/inc/admin/dashboard/main.php:1235
-#: neve/inc/admin/dashboard/main.php:1307
+#: neve/inc/admin/dashboard/main.php:1241
 #: neve/inc/admin/troubleshoot/main.php:38
 #: neve/inc/admin/troubleshoot/main.php:79
 #: neve/inc/admin/troubleshoot/main.php:93
@@ -189,8 +188,8 @@ msgid "Category"
 msgstr ""
 
 #: neve/globals/utilities.php:713
-#: neve/inc/admin/hooks_upsells.php:511
-#: neve/inc/admin/hooks_upsells.php:532
+#: neve/inc/admin/hooks_upsells.php:519
+#: neve/inc/admin/hooks_upsells.php:540
 #: neve/inc/compatibility/starter-content/theme-mods.php:802
 #: neve/inc/customizer/options/layout_blog.php:667
 #: neve/inc/customizer/options/layout_single_post.php:586
@@ -428,7 +427,7 @@ msgstr ""
 
 #: neve/header-footer-grid/Core/Builder/Footer.php:70
 #: neve/inc/admin/dashboard/main.php:572
-#: neve/inc/admin/dashboard/main.php:1236
+#: neve/inc/admin/dashboard/main.php:1242
 #: neve/inc/customizer/controls/upsell_control.php:95
 #: neve/assets/apps/customizer-controls/build/3c60893f0987518903b8.js:1
 #: neve/assets/apps/dashboard/build/dashboard.js:2
@@ -498,7 +497,7 @@ msgstr ""
 #: neve/inc/admin/dashboard/main.php:387
 #: neve/inc/admin/dashboard/main.php:674
 #: neve/inc/admin/dashboard/main.php:807
-#: neve/inc/admin/dashboard/main.php:1078
+#: neve/inc/admin/dashboard/main.php:1084
 #: neve/inc/admin/hooks_upsells.php:221
 #: neve/inc/admin/hooks_upsells.php:222
 #: neve/inc/core/front_end.php:565
@@ -1049,7 +1048,7 @@ msgstr ""
 #: neve/header-footer-grid/Core/Customizer.php:297
 #: neve/header-footer-grid/templates/components/component-cart-icon.php:27
 #: neve/header-footer-grid/templates/components/component-search-responsive.php:47
-#: neve/inc/admin/hooks_upsells.php:410
+#: neve/inc/admin/hooks_upsells.php:418
 #: neve/inc/views/header.php:141
 #: neve/inc/views/layouts/layout_sidebar.php:189
 #: neve/inc/views/style_book.php:74
@@ -1740,53 +1739,91 @@ msgstr ""
 msgid "Quickly duplicate posts, pages, and custom post types."
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1083
+#: neve/inc/admin/dashboard/main.php:1089
 msgid "Add New Layout"
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1090
+#: neve/inc/admin/dashboard/main.php:1096
 msgid "View Tutorial"
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1097
+#: neve/inc/admin/dashboard/main.php:1103
 #: neve/inc/views/style_book.php:130
 msgid "Design unique website sections without touching code. Create custom headers, footers, and content areas that match your vision."
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1232
+#: neve/inc/admin/dashboard/main.php:1238
 msgid "Neve Logo"
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1236
+#: neve/inc/admin/dashboard/main.php:1242
 #: neve/assets/apps/dashboard/build/dashboard.js:2
 msgid "Free"
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1244
+#: neve/inc/admin/dashboard/main.php:1250
 #: neve/assets/apps/customizer-controls/build/controls.js:5
 #: neve/assets/apps/dashboard/build/dashboard.js:2
 msgid "Documentation"
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1249
+#: neve/inc/admin/dashboard/main.php:1255
 #: neve/assets/apps/dashboard/build/dashboard.js:2
 msgid "Changelog"
 msgstr ""
 
-#. translators: %1$s - HTML tag, %2$s - discount, %3$s - HTML tag, %4$s - product name.
-#: neve/inc/admin/dashboard/main.php:1306
-#, php-format
-msgid "Our biggest sale of the year: %1$sup to %2$s OFF%3$s on %4$s. Don't miss this limited-time offer."
+#: neve/inc/admin/dashboard/main.php:1311
+msgid "Custom layouts, WooCommerce tools, starter sites. What you've been doing manually, Neve Pro handles for you. Exclusively for existing Neve users."
 msgstr ""
 
-#. translators: %1$s - HTML tag, %2$s - discount, %3$s - HTML tag, %4$s - product name.
-#: neve/inc/admin/dashboard/main.php:1315
-#, php-format
-msgid "Get %1$sup to %2$s off%3$s when you upgrade your %4$s plan or renew early."
+#: neve/inc/admin/dashboard/main.php:1312
+#: neve/inc/admin/hooks_upsells.php:463
+#: neve/assets/apps/dashboard/build/dashboard.js:2
+msgid "Get Neve Pro"
 msgstr ""
 
-#: neve/inc/admin/dashboard/main.php:1316
-msgid "Neve Pro"
+#. translators: %s is the discount percentage.
+#: neve/inc/admin/dashboard/main.php:1325
+#, php-format
+msgid "Black Friday Sale - up to %s off"
+msgstr ""
+
+#. translators: %1$s - the discount percentage for the upgrade, %2$s - the discount percentage for the renewal.
+#: neve/inc/admin/dashboard/main.php:1327
+#, php-format
+msgid "Upgrade your Neve Pro plan: %1$s off this week. Already on the plan you need? Renew early and save up to %2$s."
+msgstr ""
+
+#: neve/inc/admin/dashboard/main.php:1328
+msgid "See your options"
+msgstr ""
+
+#. translators: %s is the discount percentage.
+#: neve/inc/admin/dashboard/main.php:1331
+#: neve/inc/admin/dashboard/main.php:1338
+#, php-format
+msgid "Black Friday Sale - %s off"
+msgstr ""
+
+#. translators: %s is the discount percentage.
+#: neve/inc/admin/dashboard/main.php:1333
+#: neve/inc/admin/dashboard/main.php:1340
+#, php-format
+msgid "BF Sale - %s off"
+msgstr ""
+
+#: neve/inc/admin/dashboard/main.php:1334
+msgid "Your Neve Pro features are still here, just locked. Renew at a reduced rate this week and pick up right where you left off."
+msgstr ""
+
+#: neve/inc/admin/dashboard/main.php:1335
+msgid "Reactivate now"
+msgstr ""
+
+#. translators: %s - the discount percentage for the upgrade.
+#: neve/inc/admin/dashboard/main.php:1342
+#, php-format
+msgid "Neve Pro: %s off this week"
 msgstr ""
 
 #: neve/inc/admin/hooks_upsells.php:69
@@ -1810,80 +1847,75 @@ msgstr ""
 msgid "Learn more"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:415
+#: neve/inc/admin/hooks_upsells.php:423
 msgid "Take Your Site to the Next Level"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:419
+#: neve/inc/admin/hooks_upsells.php:427
 msgid "Custom Layouts helps you create a unique website that stands out"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:426
+#: neve/inc/admin/hooks_upsells.php:434
 msgid "Build Without Code"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:427
+#: neve/inc/admin/hooks_upsells.php:435
 msgid "Create stunning headers, footers, and content sections with our visual drag & drop builder"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:433
+#: neve/inc/admin/hooks_upsells.php:441
 msgid "Smart Display Rules"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:434
+#: neve/inc/admin/hooks_upsells.php:442
 msgid "Show different layouts based on user roles, devices, or content types"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:440
+#: neve/inc/admin/hooks_upsells.php:448
 msgid "WooCommerce Ready"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:441
+#: neve/inc/admin/hooks_upsells.php:449
 msgid "Design custom shop pages, product layouts, and checkout experiences"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:447
+#: neve/inc/admin/hooks_upsells.php:455
 msgid "Optimized Performance"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:448
+#: neve/inc/admin/hooks_upsells.php:456
 msgid "All layouts are lightweight and load only where needed"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:455
-#: neve/assets/apps/dashboard/build/dashboard.js:2
-msgid "Get Neve Pro"
-msgstr ""
-
-#: neve/inc/admin/hooks_upsells.php:458
+#: neve/inc/admin/hooks_upsells.php:466
 msgid "See All Features"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:507
-#: neve/inc/admin/hooks_upsells.php:528
+#: neve/inc/admin/hooks_upsells.php:515
+#: neve/inc/admin/hooks_upsells.php:536
 #: neve/inc/customizer/options/layout_single_product.php:92
 #: neve/assets/apps/customizer-controls/build/controls.js:1
 #: neve/assets/apps/metabox/build/index.js:1
 msgid "Title"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:508
-#: neve/inc/admin/hooks_upsells.php:529
+#: neve/inc/admin/hooks_upsells.php:516
+#: neve/inc/admin/hooks_upsells.php:537
 #: neve/inc/customizer/options/scroll_to_top.php:196
 msgid "Type"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:509
-#: neve/inc/admin/hooks_upsells.php:530
+#: neve/inc/admin/hooks_upsells.php:517
+#: neve/inc/admin/hooks_upsells.php:538
 msgid "Location"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:510
-#: neve/inc/admin/hooks_upsells.php:531
+#: neve/inc/admin/hooks_upsells.php:518
+#: neve/inc/admin/hooks_upsells.php:539
 msgid "Status"
 msgstr ""
 
-#: neve/inc/admin/hooks_upsells.php:518
+#: neve/inc/admin/hooks_upsells.php:526
 msgid "Upgrade to Neve Pro to create a Custom Layout."
 msgstr ""
 
@@ -3286,16 +3318,16 @@ msgid_plural "%s Comments"
 msgstr[0] ""
 msgstr[1] ""
 
-#: neve/inc/views/pluggable/pagination.php:267
+#: neve/inc/views/pluggable/pagination.php:275
 #: neve/inc/views/template_parts.php:539
 msgid "Pages:"
 msgstr ""
 
-#: neve/inc/views/pluggable/pagination.php:284
+#: neve/inc/views/pluggable/pagination.php:292
 msgid "previous"
 msgstr ""
 
-#: neve/inc/views/pluggable/pagination.php:289
+#: neve/inc/views/pluggable/pagination.php:297
 msgid "next"
 msgstr ""
 
