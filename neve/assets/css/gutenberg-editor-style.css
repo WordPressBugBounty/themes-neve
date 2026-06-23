@@ -73,6 +73,7 @@
 .editor-styles-wrapper {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: var(--bodyfontfamily);
 }
 .editor-styles-wrapper, .editor-styles-wrapper > *:not(.block-canvas-cover) {
   background-color: var(--nv-site-bg);
@@ -251,6 +252,7 @@
 .editor-styles-wrapper ol {
   padding-left: 20px;
   margin: 30px 0;
+  font-family: var(--bodyfontfamily);
 }
 .editor-styles-wrapper ul li,
 .editor-styles-wrapper ol li {
@@ -315,6 +317,7 @@
 .editor-styles-wrapper th,
 .editor-styles-wrapper td {
   border: 0;
+  font-family: var(--bodyfontfamily);
 }
 .editor-styles-wrapper th:not([class*=has-text-align]),
 .editor-styles-wrapper td:not([class*=has-text-align]) {

@@ -1364,6 +1364,17 @@ body .select2-dropdown {
   right: 0;
 }
 
+@media (max-width: 959px) {
+  .responsive-nav-cart.dropdown .nv-nav-cart:not(.cart-off-canvas) {
+    width: min(360px, 100vw - 40px);
+    max-width: calc(100vw - 40px);
+  }
+  .responsive-nav-cart.dropdown.cart-dropdown-open .nv-nav-cart {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+}
 body.woocommerce-account .woocommerce-form-login {
   display: grid;
   gap: 10px;

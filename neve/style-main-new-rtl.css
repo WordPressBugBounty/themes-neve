@@ -481,10 +481,10 @@ td {
   margin-left: calc(50% - 49vw);
 }
 
-.nv-sidebar-left .alignfull,
-.nv-sidebar-left .alignwide,
-.nv-sidebar-right .alignfull,
-.nv-sidebar-right .alignwide {
+.nv-sidebar-left :is(.alignfull, .alignwide),
+.nv-sidebar-right :is(.alignfull, .alignwide),
+[class*=wp-block-]:has(> [class*=wp-block-]):not(.alignfull):not(.alignwide) :is(.alignfull, .alignwide) {
+  width: 100%;
   max-width: 100%;
   margin-right: auto;
   margin-left: auto;
