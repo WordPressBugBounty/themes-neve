@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-08T12:56:24+00:00\n"
+"POT-Creation-Date: 2026-07-22T07:05:02+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: neve\n"
@@ -271,7 +271,7 @@ msgstr ""
 
 #: neve/header-footer-grid/Core/Builder/Abstract_Builder.php:517
 #: neve/header-footer-grid/Core/Components/CustomHtml.php:171
-#: neve/header-footer-grid/Core/Components/Logo.php:526
+#: neve/header-footer-grid/Core/Components/Logo.php:529
 #: neve/inc/compatibility/elementor.php:199
 #: neve/inc/core/front_end.php:134
 #: neve/inc/customizer/options/layout_blog.php:841
@@ -752,37 +752,37 @@ msgstr ""
 msgid "Display your company logo here or simply use words to describe your business."
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:364
+#: neve/header-footer-grid/Core/Components/Logo.php:367
 msgid "Use one logo for both modes"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:383
+#: neve/header-footer-grid/Core/Components/Logo.php:386
 msgid "Display"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:403
+#: neve/header-footer-grid/Core/Components/Logo.php:406
 msgid "Show Site Tagline"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:418
+#: neve/header-footer-grid/Core/Components/Logo.php:421
 msgid "Show Site Title"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:433
+#: neve/header-footer-grid/Core/Components/Logo.php:436
 msgid "Logo max width"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:468
+#: neve/header-footer-grid/Core/Components/Logo.php:471
 msgid "Disable Homepage Link"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:483
+#: neve/header-footer-grid/Core/Components/Logo.php:486
 #: neve/header-footer-grid/Core/Magic_Tags.php:691
 #: neve/assets/apps/dashboard/build/dashboard.js:2
 msgid "Site Title"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Components/Logo.php:483
+#: neve/header-footer-grid/Core/Components/Logo.php:486
 #: neve/header-footer-grid/Core/Components/Search.php:130
 #: neve/header-footer-grid/Core/Components/SearchResponsive.php:301
 #: neve/assets/apps/customizer-controls/build/controls.js:1
@@ -3253,7 +3253,7 @@ msgstr ""
 msgid "Toggle"
 msgstr ""
 
-#: neve/inc/views/nav_walker.php:165
+#: neve/inc/views/nav_walker.php:166
 msgid "Open Submenu"
 msgstr ""
 
