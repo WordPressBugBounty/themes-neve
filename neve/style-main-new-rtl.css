@@ -487,7 +487,8 @@ td {
 
 .nv-sidebar-left :is(.alignfull, .alignwide),
 .nv-sidebar-right :is(.alignfull, .alignwide),
-.wp-block-themeisle-blocks-advanced-column :is(.alignfull, .alignwide):not(.wp-block-columns) {
+.wp-block-themeisle-blocks-advanced-columns:not(.has-1-columns) :is(.alignfull, .alignwide),
+.wp-block-columns:has(.alignfull, .alignwide) :is(.alignfull, .alignwide) {
   width: 100%;
   max-width: 100%;
   margin-right: auto;

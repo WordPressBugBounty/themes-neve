@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-29T12:53:15+00:00\n"
+"POT-Creation-Date: 2026-08-12T13:16:25+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: neve\n"
@@ -138,13 +138,13 @@ msgstr ""
 msgid "Search"
 msgstr ""
 
-#: neve/globals/utilities.php:441
+#: neve/globals/utilities.php:480
 #: neve/inc/customizer/options/upsells.php:415
 #: neve/assets/apps/customizer-controls/build/controls.js:5
 msgid "Learn More"
 msgstr ""
 
-#: neve/globals/utilities.php:444
+#: neve/globals/utilities.php:483
 #: neve/header-footer-grid/Core/Builder/Footer.php:53
 #: neve/header-footer-grid/Core/Builder/Header.php:70
 #: neve/header-footer-grid/Core/Components/Button.php:165
@@ -158,18 +158,18 @@ msgid "(opens in a new tab)"
 msgstr ""
 
 #. translators: name of the color pallet.
-#: neve/globals/utilities.php:471
+#: neve/globals/utilities.php:510
 #: neve/inc/compatibility/starter-content/theme-mods.php:512
 msgid "Base"
 msgstr ""
 
-#: neve/globals/utilities.php:486
+#: neve/globals/utilities.php:525
 #: neve/inc/compatibility/starter-content/theme-mods.php:529
 msgid "Dark Mode"
 msgstr ""
 
-#: neve/globals/utilities.php:711
-#: neve/header-footer-grid/Core/Magic_Tags.php:654
+#: neve/globals/utilities.php:750
+#: neve/header-footer-grid/Core/Magic_Tags.php:664
 #: neve/inc/compatibility/starter-content/theme-mods.php:811
 #: neve/inc/customizer/options/layout_blog.php:665
 #: neve/inc/customizer/options/layout_single_post.php:584
@@ -177,7 +177,7 @@ msgstr ""
 msgid "Author"
 msgstr ""
 
-#: neve/globals/utilities.php:712
+#: neve/globals/utilities.php:751
 #: neve/inc/compatibility/starter-content/theme-mods.php:811
 #: neve/inc/customizer/options/layout_blog.php:666
 #: neve/inc/customizer/options/layout_single_post.php:585
@@ -187,7 +187,7 @@ msgstr ""
 msgid "Category"
 msgstr ""
 
-#: neve/globals/utilities.php:713
+#: neve/globals/utilities.php:752
 #: neve/inc/admin/hooks_upsells.php:519
 #: neve/inc/admin/hooks_upsells.php:540
 #: neve/inc/compatibility/starter-content/theme-mods.php:811
@@ -197,7 +197,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: neve/globals/utilities.php:714
+#: neve/globals/utilities.php:753
 #: neve/inc/compatibility/starter-content/theme-mods.php:811
 #: neve/inc/customizer/options/layout_blog.php:668
 #: neve/inc/customizer/options/layout_single_post.php:392
@@ -564,7 +564,7 @@ msgid "Enable Advanced Options"
 msgstr ""
 
 #: neve/header-footer-grid/Core/Builder/Header.php:256
-#: neve/header-footer-grid/Core/Magic_Tags.php:688
+#: neve/header-footer-grid/Core/Magic_Tags.php:698
 #: neve/inc/customizer/options/main.php:56
 #: neve/inc/customizer/options/typography.php:93
 msgid "Global"
@@ -777,7 +777,7 @@ msgid "Disable Homepage Link"
 msgstr ""
 
 #: neve/header-footer-grid/Core/Components/Logo.php:486
-#: neve/header-footer-grid/Core/Magic_Tags.php:691
+#: neve/header-footer-grid/Core/Magic_Tags.php:701
 #: neve/assets/apps/dashboard/build/dashboard.js:2
 msgid "Site Title"
 msgstr ""
@@ -823,7 +823,7 @@ msgstr ""
 
 #. translators: %s is the header name
 #: neve/header-footer-grid/Core/Components/MenuIcon.php:543
-#: neve/header-footer-grid/Core/Customizer.php:277
+#: neve/header-footer-grid/Core/Customizer.php:281
 #: neve/assets/apps/customizer-controls/build/7e5613fb2e01e74b5136.js:1
 #: neve/assets/apps/metabox/build/index.js:1
 msgid "Default"
@@ -871,10 +871,10 @@ msgid "Items Hover Color"
 msgstr ""
 
 #: neve/header-footer-grid/Core/Components/Nav.php:309
-#: neve/header-footer-grid/Core/Magic_Tags.php:713
+#: neve/header-footer-grid/Core/Magic_Tags.php:723
 #: neve/header-footer-grid/templates/components/component-cart-icon.php:51
 #: neve/header-footer-grid/templates/components/component-edd-cart-icon.php:32
-#: neve/inc/views/header.php:180
+#: neve/inc/views/header.php:184
 msgid "Cart"
 msgstr ""
 
@@ -1028,24 +1028,24 @@ msgid "Custom SVG"
 msgstr ""
 
 #. translators: %s is the header name
-#: neve/header-footer-grid/Core/Customizer.php:277
+#: neve/header-footer-grid/Core/Customizer.php:281
 #, php-format
 msgid "You are customizing the %s Header"
 msgstr ""
 
 #. translators: %s is the type of builder
-#: neve/header-footer-grid/Core/Customizer.php:285
+#: neve/header-footer-grid/Core/Customizer.php:289
 #, php-format
 msgid "%s Builder:"
 msgstr ""
 
 #. translators: %s is the header name
-#: neve/header-footer-grid/Core/Customizer.php:288
+#: neve/header-footer-grid/Core/Customizer.php:292
 #: neve/assets/apps/customizer-controls/build/3c60893f0987518903b8.js:5
 msgid "Click on any empty space to add components, or existing components to adjust settings."
 msgstr ""
 
-#: neve/header-footer-grid/Core/Customizer.php:297
+#: neve/header-footer-grid/Core/Customizer.php:301
 #: neve/header-footer-grid/templates/components/component-cart-icon.php:27
 #: neve/header-footer-grid/templates/components/component-search-responsive.php:47
 #: neve/inc/admin/hooks_upsells.php:418
@@ -1055,154 +1055,154 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Customizer.php:342
+#: neve/header-footer-grid/Core/Customizer.php:346
 msgid "Search Components"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:596
+#: neve/header-footer-grid/Core/Magic_Tags.php:606
 msgid "Single"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:599
+#: neve/header-footer-grid/Core/Magic_Tags.php:609
 msgid "Current Single Title"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:603
+#: neve/header-footer-grid/Core/Magic_Tags.php:613
 msgid "Current Single Excerpt"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:607
+#: neve/header-footer-grid/Core/Magic_Tags.php:617
 msgid "Current Single Content"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:611
+#: neve/header-footer-grid/Core/Magic_Tags.php:621
 msgid "Current Single URL"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:615
+#: neve/header-footer-grid/Core/Magic_Tags.php:625
 msgid "Current Post Meta"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:619
+#: neve/header-footer-grid/Core/Magic_Tags.php:629
 msgid "Author meta"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:623
+#: neve/header-footer-grid/Core/Magic_Tags.php:633
 msgid "Date meta"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:627
+#: neve/header-footer-grid/Core/Magic_Tags.php:637
 msgid "Category meta"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:631
+#: neve/header-footer-grid/Core/Magic_Tags.php:641
 msgid "Comments meta"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:637
+#: neve/header-footer-grid/Core/Magic_Tags.php:647
 #: neve/inc/compatibility/fse.php:47
 msgid "Archive"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:640
+#: neve/header-footer-grid/Core/Magic_Tags.php:650
 msgid "Archive Description"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:644
+#: neve/header-footer-grid/Core/Magic_Tags.php:654
 msgid "Archive Title"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:648
+#: neve/header-footer-grid/Core/Magic_Tags.php:658
 msgid "Archive URL"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:657
+#: neve/header-footer-grid/Core/Magic_Tags.php:667
 msgid "Author Bio"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:661
+#: neve/header-footer-grid/Core/Magic_Tags.php:671
 msgid "Author Name"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:665
+#: neve/header-footer-grid/Core/Magic_Tags.php:675
 msgid "Author URL"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:671
+#: neve/header-footer-grid/Core/Magic_Tags.php:681
 msgid "Current User"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:674
+#: neve/header-footer-grid/Core/Magic_Tags.php:684
 msgid "User Nice Name"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:678
+#: neve/header-footer-grid/Core/Magic_Tags.php:688
 msgid "Display Name"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:682
+#: neve/header-footer-grid/Core/Magic_Tags.php:692
 msgid "User Email"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:695
+#: neve/header-footer-grid/Core/Magic_Tags.php:705
 #: neve/assets/apps/dashboard/build/dashboard.js:2
 msgid "Site Tagline"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:699
+#: neve/header-footer-grid/Core/Magic_Tags.php:709
 msgid "Current Page Title"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:703
+#: neve/header-footer-grid/Core/Magic_Tags.php:713
 msgid "Home URL"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:707
+#: neve/header-footer-grid/Core/Magic_Tags.php:717
 msgid "Current Year"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:716
-#: neve/header-footer-grid/Core/Magic_Tags.php:740
+#: neve/header-footer-grid/Core/Magic_Tags.php:726
+#: neve/header-footer-grid/Core/Magic_Tags.php:750
 msgid "Total + Currency Symbol"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:720
-#: neve/header-footer-grid/Core/Magic_Tags.php:744
+#: neve/header-footer-grid/Core/Magic_Tags.php:730
+#: neve/header-footer-grid/Core/Magic_Tags.php:754
 msgid "Total"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:724
-#: neve/header-footer-grid/Core/Magic_Tags.php:748
+#: neve/header-footer-grid/Core/Magic_Tags.php:734
+#: neve/header-footer-grid/Core/Magic_Tags.php:758
 msgid "Currency Name"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:728
-#: neve/header-footer-grid/Core/Magic_Tags.php:752
+#: neve/header-footer-grid/Core/Magic_Tags.php:738
+#: neve/header-footer-grid/Core/Magic_Tags.php:762
 msgid "Currency Symbol"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:737
+#: neve/header-footer-grid/Core/Magic_Tags.php:747
 msgid "EDD Cart"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:761
+#: neve/header-footer-grid/Core/Magic_Tags.php:771
 msgid "WooCommerce"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:764
+#: neve/header-footer-grid/Core/Magic_Tags.php:774
 #: neve/assets/apps/customizer-controls/build/controls.js:1
 msgid "Product Price"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:768
+#: neve/header-footer-grid/Core/Magic_Tags.php:778
 msgid "Product Title"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:772
+#: neve/header-footer-grid/Core/Magic_Tags.php:782
 msgid "Cart URL"
 msgstr ""
 
-#: neve/header-footer-grid/Core/Magic_Tags.php:776
+#: neve/header-footer-grid/Core/Magic_Tags.php:786
 msgid "Checkout URL"
 msgstr ""
 
@@ -2469,16 +2469,16 @@ msgid "Don't worry - you can always add or remove pages later"
 msgstr ""
 
 #: neve/inc/customizer/loader.php:169
-#: neve/inc/customizer/loader.php:337
+#: neve/inc/customizer/loader.php:342
 #: neve/assets/apps/dashboard/build/dashboard.js:4
 msgid "An error occurred. Please reload the page and try again."
 msgstr ""
 
-#: neve/inc/customizer/loader.php:317
+#: neve/inc/customizer/loader.php:322
 msgid "Invalid security token."
 msgstr ""
 
-#: neve/inc/customizer/loader.php:325
+#: neve/inc/customizer/loader.php:330
 msgid "You do not have permission to perform this action."
 msgstr ""
 
