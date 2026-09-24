@@ -1,9 +1,8 @@
 === Neve ===
 Contributors: themeisle
-Tags: blog,block-patterns, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, flexible-header, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles, footer-widgets, portfolio, left-sidebar, right-sidebar
+Tags: blog, block-patterns, custom-logo, e-commerce, rtl-language-support, grid-layout, one-column, two-columns, custom-background, custom-colors, custom-menu, featured-image-header, featured-images, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, accessibility-ready, wide-blocks, block-styles, footer-widgets, portfolio, left-sidebar, right-sidebar
 Requires at least: 5.5
-Tested up to: 6.4
-Stable tag: trunk
+Tested up to: 7.1
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -18,6 +17,40 @@ Neve WordPress theme, Copyright 2018 Themeisle
 Neve is distributed under the terms of the GNU GPLv2 or later
 
 == Changelog ==
+
+##### [Version 4.2.13](https://github.com/Codeinwp/neve/compare/v4.2.12...v4.2.13) (2026-09-24)
+
+- Improved Neve accessibility with keyboard-ready menus, stronger contrast, and better page reflow.
+
+
+
+
+##### [Version 4.2.12](https://github.com/Codeinwp/neve/compare/v4.2.11...v4.2.12) (2026-09-14)
+
+- Fixed archive pages crashing when post content order data is stored as an array.
+- Fixed fatal errors when unavailable Pro navigation files load.
+- Fixed Neve page options reverting after you save them in the block editor.
+- Fixed site errors when a navigation walker is unavailable.
+- Fixed duplicate Footer Menu IDs in responsive footer layouts.
+- Fixed dashboard errors when the changelog handler is unavailable.
+- Fixed Customizer preview crashes when color settings receive array values.
+- Fixed Customizer crashes when Header Footer Grid components cannot be resolved.
+- Fixed mobile off-canvas carts that did not open after adding products.
+- Fixed the editor title not dimming when you disable the page title.
+- Fixed right-edge dropdown menus opening beside their parent items.
+- Fixed manual excerpt links disappearing on blog and archive pages.
+- Fixed Elementor global color requests that return errors.
+- Fixed the Customizer crash when a single-post element order is stored as an array.
+- Fixed the faint shadow line below transparent headers.
+- Fixed header logo errors when saved logo data is an array.
+- Fixed page crashes when a Google Fonts filter returns an invalid list.
+- Fixed frontend CSS errors when legacy responsive typography settings use array values.
+- Fixed checkout labels using readable typography when form label settings are empty.
+- Fixed page errors when scroll-to-top settings are unavailable.
+- Fixed frontend pages failing when saved responsive container widths are invalid.
+
+
+
 
 ##### [Version 4.2.11](https://github.com/Codeinwp/neve/compare/v4.2.10...v4.2.11) (2026-08-12)
 
@@ -131,7 +164,7 @@ New Features
 - Integrated installation of Login Customizer, Cookie Notice, Duplicate Page, and Custom Fonts/Scripts modules
 - New Maintenance and Coming Soon custom layouts [PRO]
 - Admin Dashboard Customizer module to personalize the WordPress admin experience (Menu, Admin Bar, Custom Pages) [Agency]
-- Included premium WP Landing Kit wordpress plugin [Agency]
+- Included premium WP Landing Kit WordPress plugin [Agency]
 
 Enhancements
 
