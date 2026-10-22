@@ -932,6 +932,7 @@ section.exclusive ul:not(.tns-slider) li:nth-child(n+5) {
 }
 .woocommerce-cart table.cart td.actions .coupon {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-thumbnail:not([class^=elementor]) img {
